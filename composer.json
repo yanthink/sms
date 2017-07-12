@@ -1,0 +1,28 @@
+{
+    "name": "yanthink/sms",
+    "description": "亿美软通、建周、3G新传媒短信接口",
+    "keywords": [
+        "短信",
+        "sms",
+        "亿美软通",
+        "周建",
+        "3G新传媒",
+        "laravel"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yanthink",
+            "email": "yanthink911@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yanthink\\Sms\\": "src/"
+        }
+    }
+}
